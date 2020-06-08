@@ -9,12 +9,16 @@
     pip install -r requirements-test.txt
     # For unit testing
     pip install -r requirements-dev.txt
+    
+## Unit tests
+
+    # To run unit test 
+    pytest /tests/*
 
 ## Initializing the Database
 
     # Create DB tables and populate the tables
     python manage.py db upgrade
-
 
 ## Running the app
 
