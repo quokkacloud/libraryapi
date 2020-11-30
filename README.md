@@ -7,7 +7,6 @@
 
     # Install required Python packages 
     pip install -r requirements-test.txt
-    # For unit testing
     pip install -r requirements-dev.txt
     
 ## Unit tests
